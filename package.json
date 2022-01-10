@@ -1,0 +1,11 @@
+{
+  "name": "some-buttons",
+  "version": "1.0.0",
+  "description": "For the fun of sound",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joachim",
+  "license": "ISC"
+}

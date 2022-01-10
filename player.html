@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/png" href="design/icon_theme_mario.png"/>
+        <link href="reset.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js" type="text/javascript"></script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+        <header>
+            Some buttons to make some sound.
+        </header>
+
+        <main>
+            <section id="search" class="cardsearch">
+
+                <div class='card_theme col2'>
+                    <img src='design/icon_theme_cat.png'>Cat
+                </div>
+                 <!-- Accessible search bar http://web-accessibility.carnegiemuseums.org/code/search/ -->
+                <form role="search" action="/" method="get">
+                    <label for="search-input">
+                        <span class="hidden">Search</span>
+                    </label>
+
+                    <input type="text" id="search-input" name="search-input" placeholder="Search theme..">
+                    </input>
+
+                    <!--<input type="submit" id="search-submit" aria-label="search" value></input>-->
+                </form>
+
+            </section>
+            <section id="player_tools">
+                <button id='play'>Play</button>
+                <button id='record' disabled>Record</button>
+                <button id='undo'>Undo</button>
+                <button id='reset'>Reset</button>
+                <textarea id='sequence'></textarea>
+            </section>
+            <section id="player_pad">
+                <!-- Masking those since they are created in JS
+                <button class="pad-button">B1</button>
+                <button class="pad-button">B2</button>
+                <button class="pad-button">B3</button>
+                <button class="pad-button">B4</button>
+                <button class="pad-button">B5</button>
+                <button class="pad-button">B6</button>
+                <button class="pad-button">B7</button>
+                <button class="pad-button">B8</button>
+                <button class="pad-button">B9</button>
+                <button class="pad-button">B10</button>
+                <button class="pad-button">B11</button>
+                <button class="pad-button">B12</button>
+                <button class="pad-button">B13</button>
+                <button class="pad-button">B14</button>
+                <button class="pad-button">B15</button>
+                <button class="pad-button">B16</button>
+                <button class="pad-button">B17</button>
+                <button class="pad-button">B18</button>
+                <button class="pad-button">B19</button>
+                <button class="pad-button">B20</button>
+                <button class="pad-button">B21</button>
+                <button class="pad-button">B22</button>
+                <button class="pad-button">B23</button>
+                <button class="pad-button">B24</button>
+                <button class="pad-button">B25</button>
+                <button class="pad-button">B26</button>
+                <button class="pad-button">B27</button>
+                <button class="pad-button">B28</button>
+                <button class="pad-button">B29</button>
+                <button class="pad-button">B30</button>       
+                -->    
+            </section>
+
+        </main>
+
+        <footer>
+            This is the end.
+        </footer>
+
+    </body>
+</html>
+
+
